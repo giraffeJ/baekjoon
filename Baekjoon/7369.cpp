@@ -25,5 +25,5 @@ int main() {
 		dayt = ((daysum - 1) % 20);
 		printf("%d %s %d\n", montht, tzolkin[dayt], yeart);
 	}
-	scanf("%d %d", &n, &i);
+	//scanf("%d %d", &n, &i);
 }
