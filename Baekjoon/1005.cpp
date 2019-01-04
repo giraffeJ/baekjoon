@@ -22,6 +22,7 @@ int main() {
 		for (j = 1; j <= n; j++) {
 			scanf("%d", &d[j]);
 			cost[j] = -1;
+			a[j][0] = 0;
 		}
 		for (j = 1; j <= m; j++) {
 			scanf("%d %d", &x, &y);
