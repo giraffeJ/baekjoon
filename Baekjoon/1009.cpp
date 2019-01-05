@@ -9,6 +9,7 @@ int main() {
 		for (j = 2; j <= b; j++) {
 			c = (c * a) % 10;
 		}
+		if (c == 0) c = 10;
 		printf("%d\n", c);
 	}
 	scanf("%d", &tcn);
