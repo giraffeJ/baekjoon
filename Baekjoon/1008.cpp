@@ -3,5 +3,4 @@ double a, b;
 int main() {
 	scanf("%lf %lf", &a, &b);
 	printf("%.9lf\n", a / b);
-	scanf("%lf %lf", &a, &b);
 }
