@@ -1,5 +1,5 @@
 #include<stdio.h>
-int i, j, ind[1001], k, n, m, s, siz, x, y;
+int i, j, ind[20000001], k, n, m, s, siz, x, y;
 int min(int a, int b) {
 	if (a < b) return a;
 	else return b;
