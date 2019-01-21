@@ -5,7 +5,7 @@ struct list {
 	int num;
 	int val;
 	int cnt;
-} run[10001], temp1[10001], temp2[10001];
+} run[1000001], temp1[1000001], temp2[1000001];
 bool comp(list a, list b) {
 	if (a.num < b.num) return true;
 	else return false;
