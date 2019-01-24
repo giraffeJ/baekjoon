@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h> //위치 하나를 노드로, 포탈과 사방이동을 간선으로 한 후 벨만 포드 알고리즘.
 #include<algorithm>
 #include<vector>
 using namespace std;
@@ -59,16 +59,9 @@ int main() {
 		siz = adj.size();
 		for (i = 1; i < n*m; i++) {
 			for (j = 0; j < siz; j++) {
-				x = adj[j].fx;
-				y = adj[j].fy;
-				nx = adj[j].tx;
-				ny = adj[j].ty;
-				if (d[x][y] != 2100000000 && d[nx][ny]>d[x][y] + adj[j].val) {
-					d[nx][ny] = d[x][y] + adj[j].val;
-				}
-				/*if (d[adj[j].fx][adj[j].fy] != 2100000000 && d[adj[j].tx][adj[j].ty]>d[adj[j].fx][adj[j].fy] + adj[j].val) {
+				if (d[adj[j].fx][adj[j].fy] != 2100000000 && d[adj[j].tx][adj[j].ty]>d[adj[j].fx][adj[j].fy] + adj[j].val) {
 					d[adj[j].tx][adj[j].ty] = d[adj[j].fx][adj[j].fy] + adj[j].val;
-				}*/
+				}
 			}
 		}
 		for (j = 0; j < adj.size(); j++) {
@@ -79,12 +72,12 @@ int main() {
 			}
 		}
 		if (j < adj.size()) {
-			printf("AAAAAAAA : Never\n");
+			printf("Never\n");
 		}
 		else if (d[n][m] == 2100000000) {
-			printf("AAAAAAAA : Impossible\n");
+			printf("Impossible\n");
 		}
-		else printf("AAAAAAAA : %d\n", d[n][m]);
+		else printf("%d\n", d[n][m]);
 		adj.clear();
 	}
 }
