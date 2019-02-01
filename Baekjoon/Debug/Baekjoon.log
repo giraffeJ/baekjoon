@@ -1,2 +1,5 @@
-﻿  5376.소수를 분수로.cpp
+﻿  3878.점 분리_X.cpp
+c:\users\jeff\source\repos\baekjoon\baekjoon\3878.점 분리_x.cpp(148): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'lli *'입니다.
+  c:\users\jeff\source\repos\baekjoon\baekjoon\3878.점 분리_x.cpp(148): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  c:\users\jeff\source\repos\baekjoon\baekjoon\3878.점 분리_x.cpp(148): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
   Baekjoon.vcxproj -> C:\Users\Jeff\source\repos\Baekjoon\Debug\Baekjoon.exe
