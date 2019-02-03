@@ -9,7 +9,7 @@ struct Point {
 		return y == a.y ? x < a.x : y < a.y;
 	}
 	bool operator <= (const Point &a) const {
-		return x == a.x ? y <= a.x : x <= a.x;
+		return x == a.x ? y <= a.y : x <= a.x;
 	}
 	Point operator - (const Point &a) const {
 		return{ x - a.x, y - a.y };

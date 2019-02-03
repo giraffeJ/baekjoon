@@ -72,9 +72,6 @@
     <ClCompile Include="1013.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1014_X.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2003.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -321,7 +318,25 @@
     <ClCompile Include="1708.블록 껍질.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3878.점 분리_X.cpp">
+    <ClCompile Include="3878.점 분리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1014.컨닝_X.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2557.Hello World.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7287.등록.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10172.개.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10718.We love kriii.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11718.그대로 출력하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
