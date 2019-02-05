@@ -1,6 +1,6 @@
 #include<stdio.h>
 int tcn, i, j, n, m, k, a[20][20], c[20][20], res;
-char temp;
+char temp;/*
 void cheat(int x, int y, int cnt) {
 	if (x == n && y == m + 1) {
 		if (cnt > res) {
@@ -23,7 +23,7 @@ void cheat(int x, int y, int cnt) {
 			}
 		}
 	}
-}
+}*/ //DP로 다시 풀어야 함..
 int main() {
 	scanf("%d\n", &tcn);
 	for (i = 1; i <= tcn; i++) {
