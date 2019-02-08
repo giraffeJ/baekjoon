@@ -72,12 +72,6 @@
     <ClCompile Include="1013.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2003.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2805.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2748.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -340,6 +334,27 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11719.그대로 출력하기2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2003.수들의 합2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2805.나무 자르기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10998.AxB.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10869.사칙연산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10430.나머지.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2558.A+B-2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2839.설탕 배달.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
