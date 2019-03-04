@@ -411,5 +411,14 @@
     <ClCompile Include="1110.더하기 사이클.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4673.셀프 넘버.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1065.한수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2448.별 찍기-11.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

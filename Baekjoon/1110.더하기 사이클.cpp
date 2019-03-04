@@ -18,5 +18,4 @@ int main() {
 		}
 		cnt++;
 	}
-	scanf("%d", &n);
 }
