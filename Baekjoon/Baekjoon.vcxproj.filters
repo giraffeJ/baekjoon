@@ -435,5 +435,17 @@
     <ClCompile Include="10039.평균 점수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11654.아스키 코드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10809.알파벳 찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2675.문자열 반복.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1157.단어 공부.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
