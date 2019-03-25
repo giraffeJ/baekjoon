@@ -1,5 +1,53 @@
 #include<stdio.h>
 #include<string.h>
+int stack[101], top = -1, n, i, x, y, z;
+void push(int k) {
+	if (k > 0 && stack[top] > 0) stack[top] += k;
+	else stack[++top] = k; 
+}
+int pop() { return stack[top--]; }
+char a[101];
+int char_to_int(char k) {
+	if (k == '(') return -1;
+	if (k == ')') return -3;
+	if (k == '[') return -2;
+	if (k == ']') return -4;
+}
+int main() {
+	while (1) {
+		top = -1;
+		scanf("%s", &a);
+		n = strlen(a);
+		for (i = 0; i < n; i++) {
+			x = char_to_int(a[i]);
+			if (x >= -2) {
+				push(x);
+				continue;
+			}
+			if (top == -1) break;
+			y = pop();
+			if (y > 0) {
+				z = pop();
+				if (x*z == 3) push(y * 2);
+				else if (x*z == 8) push(y * 3);
+				else break;
+			}
+			else {
+				if (x*y == 3) push(2);
+				else if (x*y == 8) push(3);
+				else break;
+			}
+		}
+		if (i < n || top != 0 || top == 0 && stack[top] < 0) {
+			printf("0\n");
+		}
+		else printf("%d\n", stack[top]);
+	}
+}
+
+/*
+#include<stdio.h>
+#include<string.h>
 int i, j, n, m, stack[100001], top = -1, x, y, z, w, sum;
 char a[100001];
 void push(int k) {
@@ -78,3 +126,4 @@ int main() {
 	}
 	scanf("%d", &n);
 }
+*/

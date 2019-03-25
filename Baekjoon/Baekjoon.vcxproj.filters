@@ -75,9 +75,6 @@
     <ClCompile Include="1806.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10828.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="10845.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -127,9 +124,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="3020.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2504.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11266.cpp">
@@ -496,6 +490,33 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1181.단어 정렬.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1978.소수 찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2581.소수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1929.소수 구하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4948.베르트랑 공준.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9020.골드바흐의 추측.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10828.스택.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1874.스택 수열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9012.괄호.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2504.괄호의 값.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
