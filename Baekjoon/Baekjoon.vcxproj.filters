@@ -75,9 +75,6 @@
     <ClCompile Include="1806.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10845.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1991.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -517,6 +514,24 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2504.괄호의 값.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10845.큐.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1260.DFS와 BFS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1966.프린터 큐.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11866.조세퍼스 문제 0.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1158.조세퍼스 문제.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10866.덱.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
