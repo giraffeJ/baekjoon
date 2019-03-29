@@ -4,7 +4,7 @@ using namespace std;
 int deque[20010], front=10000, back=10000, n, value;
 char temp[15];
 string order;
-
+ 
 void push_front(int k) { deque[front--] = k; }
 void push_back(int k) { deque[++back] = k; }
 int pop_front() { return back == front ? -1 : deque[++front]; }

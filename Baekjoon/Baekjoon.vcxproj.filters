@@ -534,5 +534,20 @@
     <ClCompile Include="10866.덱.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="16236.아기 상어.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16235.나무 재테크.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13458.시험 감독.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13460.구슬 탈출2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12100.2048 (Easy).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
