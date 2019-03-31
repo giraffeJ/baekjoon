@@ -549,5 +549,11 @@
     <ClCompile Include="12100.2048 (Easy).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3190.뱀.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14499.주사위 굴리기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
