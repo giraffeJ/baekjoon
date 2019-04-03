@@ -39,7 +39,7 @@ void rolling() {
 		dir = moves[i];
 		nx = x + dx[dir];
 		ny = y + dy[dir];
-		if (nx<1 || nx>n || ny<1 || ny>n) continue;
+		if (nx<1 || nx>n || ny<1 || ny>m) continue;
 		roll(dir, nx, ny);
 		printf("%d\n", dice_status[1]);
 		x = nx;
@@ -54,3 +54,6 @@ int main() {
 	get_move_sequence();
 	rolling();
 }
+
+
+
