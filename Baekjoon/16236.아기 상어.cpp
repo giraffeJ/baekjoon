@@ -33,9 +33,9 @@ int find_food(int bs_x, int bs_y, int bs_size) {
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= n; j++) {
 			if (a[i][j] > 0 && a[i][j] < bs_size && c[i][j] == 1 && d[i][j] < mi) {
-				mi = d[i][j];
-				bs_nx = i;
-				bs_ny = j;
+					mi = d[i][j];
+					bs_nx = i;
+					bs_ny = j;
 			}
 		}
 	}
